@@ -58,9 +58,6 @@ class Contact extends Component {
             <input
               type="text"
               name="firstName"
-              input
-              type="text"
-              name="firstName"
               value={this.state.formData.firstName}
               onChange={this.handleChange}
             />
